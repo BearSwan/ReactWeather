@@ -2,7 +2,9 @@ import React from 'react';
 
 let Examples = (props) => {
     return (
-        <div>Examples componentsss!</div>
+        <div>
+            <h3>Examples componentsss!</h3>
+        </div>
     )
 }
 
