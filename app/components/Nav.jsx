@@ -15,13 +15,13 @@ let Nav = React.createClass({
                             React Weather App
                         </li>
                         <li>
-                            <IndexLink activeClassName='active' to='/'>Get weather</IndexLink>
+                            <IndexLink activeClassName='active' activeStyle={{fontWeight: 'bold'}} to='/'>Get weather</IndexLink>
                         </li>
                         <li>
-                            <IndexLink activeClassName='active' to='/about'>About</IndexLink>
+                            <IndexLink activeClassName='active' activeStyle={{fontWeight: 'bold'}} to='/about'>About</IndexLink>
                         </li>
                         <li>
-                            <IndexLink activeClassName='active' to='/examples'>Examples</IndexLink>
+                            <IndexLink activeClassName='active' activeStyle={{fontWeight: 'bold'}} to='/examples'>Examples</IndexLink>
                         </li>
                     </ul>
                 </div>
