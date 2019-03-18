@@ -4,11 +4,11 @@ let ErrorModal = React.createClass({
     getDefaultProps: function () {
         return {
             title: "Error"
-        }
+        };
     },
     propTypes: {
-        title: React.propTypes.string,
-        message: React.propTypes.string.isRequired
+        title: React.PropTypes.string,
+        message: React.PropTypes.string.isRequired
     },
     componentDidMount: function () {
         let modal = new Foundation.Reveal($("#error-modal"));

@@ -6,8 +6,13 @@ import Weather from 'Weather';
 import About from 'About';
 import Examples from 'Examples';
 
+// Load Foundation
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
+
+// app CSS
+require('style!css!applicationStyles');
+
 
 ReactDOM.render(
   <Router history={hashHistory}>

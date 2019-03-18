@@ -3,7 +3,7 @@ import React from 'react';
  let About = (props) => {
     return (
         <div className="about">
-            <h1 className="text-center">About</h1>
+            <h1 className="text-center page-title">About</h1>
             <p>This is About page. I've built it for the COmplete React Web AppDeveloper Course.</p>
             <p>Here are some tools I used:</p>
             <ul>
